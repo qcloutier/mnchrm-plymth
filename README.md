@@ -1,6 +1,6 @@
 # mnchrm-plymth
 
-Monochrome 
+A monochromatic
 [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) 
 theme that displays white icons on a black background.
 
@@ -15,6 +15,7 @@ Features logos for several popular distros, including:
 - Fedora
 - Gentoo Linux
 - Linux Mint
+- Manjaro Linux
 - openSUSE
 - Solus
 - Ubuntu
@@ -24,7 +25,7 @@ Features logos for several popular distros, including:
 
 Also supports password entry for unlocking encrypted drives.
 
-## Installation
+## Manual Installation
 
 Copy the `mnchrm` folder to the Plymouth theme directory.
 For example, on Arch Linux:
