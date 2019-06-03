@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=mnchrm
+Description=A monochrome Plymouth theme with white icons on a black background
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mnchrm
+ScriptFile=/usr/share/plymouth/themes/mnchrm/mnchrm.script
