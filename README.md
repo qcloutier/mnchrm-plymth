@@ -1,8 +1,10 @@
 # mnchrm-plymth
 
-Monochrome Plymouth theme that displays white icons on a black background.
+Monochrome 
+[Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) 
+theme that displays white icons on a black background.
 
-![screenshot](https://github.com/qcloutier/mnchrm-plymth/screenshot.png?raw=true)
+![screenshot](screenshot.png?raw=true)
 
 Features logos for several popular distros, including:
 
@@ -34,8 +36,7 @@ Again, on Arch Linux:
 
     # plymouth-set-default-theme -R mnchrm
 
-For users of other distros, please consult your distribution's documentation 
-to determine where to copy it to and how to set it as the default Plymouth theme.
+Consult your distribution's documentation for more details.
 
 ## Changing the Distribution Logo
 
@@ -47,5 +48,5 @@ logo.image = Image("icons//tux.png");
 
 Change `icons//tux.png` to the name of the desired logo.
 
-Themed logos are provided in the `logos` directory.
+Themed logos are provided in the `mnchrm/logos` directory.
 
