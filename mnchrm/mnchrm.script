@@ -1,5 +1,5 @@
 #
-# A script that displays the distribution logo and a loading 
+# A script that displays the distribution logo and a loading
 # bar or a password prompt in the center of the screen.
 #
 # Much of this code is based on the default example script.
@@ -14,7 +14,7 @@ status = "normal";
 Window.SetBackgroundTopColor(0.0, 0.0, 0.0);
 Window.SetBackgroundBottomColor(0.0, 0.0, 0.0);
 
-logo.image = Image("icons//tux.png");
+logo.image = Image("icons/tux.png");
 logo.sprite = Sprite(logo.image);
 
 logo.sprite.SetX(Window.GetWidth() * 0.50 - logo.image.GetWidth() * 0.50);
@@ -24,8 +24,8 @@ logo.sprite.SetY(Window.GetHeight() * 0.40 - logo.image.GetHeight() * 0.50);
 # Progress Bar
 #
 
-bar.org_img = Image("icons//bar.png");
-bar.cur_img = Image("icons//bar.png");
+bar.org_img = Image("icons/bar.png");
+bar.cur_img = Image("icons/bar.png");
 bar.sprite = Sprite(bar.cur_img);
 bar.sprite.SetOpacity(0);
 
@@ -77,27 +77,27 @@ status = "normal";
 fun dialog_setup()
 {
     local.entry;
-    entry.image = Image("icons//entry.png");
+    entry.image = Image("icons/entry.png");
     entry.sprite = Sprite(entry.image);
 
     local.lock;
-    lock.image = Image("icons//lock.png");
+    lock.image = Image("icons/lock.png");
     lock.sprite = Sprite(lock.image);
 
     entry.x = Window.GetWidth() * 0.50 - entry.image.GetWidth() * 0.50 + lock.image.GetWidth() * 0.50;
     entry.y = Window.GetHeight() * 0.60 - entry.image.GetHeight() * 0.50;
     entry.z = 1;
     entry.sprite.SetPosition(entry.x, entry.y, entry.z);
-    
+
     lock.sprite.SetX(Window.GetWidth() * 0.50 - lock.image.GetWidth() * 0.50 - entry.image.GetWidth() * 0.50);
     lock.sprite.SetY(Window.GetHeight() * 0.60 - lock.image.GetHeight() * 0.50);
 
     global.dialog.entry = entry;
     global.dialog.lock = lock;
-    global.dialog.bullet_image = Image("icons//bullet.png");
+    global.dialog.bullet_image = Image("icons/bullet.png");
     dialog_opacity(1);
 }
-    
+
 fun dialog_opacity(opacity)
 {
     dialog.box.sprite.SetOpacity(opacity);

@@ -1,7 +1,7 @@
 # mnchrm-plymth
 
 A monochromatic
-[Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) 
+[Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/)
 theme that displays white icons on a black background.
 
 ![screenshot](screenshot.png?raw=true)
@@ -44,10 +44,10 @@ Consult your distribution's documentation for more details.
 Open `mnchrm/mnchrm.script` in your favourite text editor and find this line:
 
 ```
-logo.image = Image("icons//tux.png");
+logo.image = Image("icons/tux.png");
 ```
 
-Change `icons//tux.png` to the name of the desired logo.
+Change `icons/tux.png` to the name of the desired logo.
 
 Themed logos are provided in the `mnchrm/logos` directory.
 
